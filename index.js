@@ -8,7 +8,7 @@ import User from "./schema/user_schema.js"
 
 
 const app= express();
-const PORT = process.env.PORT3001
+const PORT = process.env.PORT || 3001
 
 dotenv.config();
 
